@@ -63,10 +63,10 @@ router.put("/:id", async (req, res) => {
       }
     );
     if (!updateCat[0]) {
-      res.status(404).json({ message: "No category was found with that ID. Please try another ID." });
+      res.status(404).json({ message: "No category was found. Please try again." });
       return;
     }
-    res.status(200).json(updateCategory);
+    res.status(200).json(updateCat);
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
