@@ -34,6 +34,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ## Output
 <img width="959" alt="image" src="https://github.com/elaine-luckey/E-Commerce-Back-End/assets/134161776/b942537c-838d-4383-8e5d-a44733d6bfe8">
 
+
 <img width="960" alt="image" src="https://github.com/elaine-luckey/E-Commerce-Back-End/assets/134161776/334e3055-6af3-4acb-8219-1c4cdd14a1c8">
 
 
