@@ -17,7 +17,7 @@ Product.init(
       autoIncrement: true,
     },
     product_name: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     price: {
@@ -34,6 +34,13 @@ Product.init(
         id: 'id',
       }
     },
+    category_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'category',
+        id: 'id'
+      }
+    }
   },
   {
     sequelize,
